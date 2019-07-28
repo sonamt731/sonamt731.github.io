@@ -1,0 +1,54 @@
+body{
+    background-color: #E5E4E4;
+}
+
+
+#bannerimage {
+           position: relative;    
+}
+       
+#bannerimage img {
+           height:auto;
+           width:100%;
+}
+
+#smallpicture img{
+	height: 50px;
+	width: 50px;
+	margin-bottom: 15px;
+
+
+}
+
+h2{
+	margin: 20px;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
