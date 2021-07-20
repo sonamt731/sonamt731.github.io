@@ -24,7 +24,7 @@ h2{
 	margin: 20px;
 }
 
-.container2 {
+.container2, .container3 {
   position: relative;
 }
 
@@ -51,6 +51,22 @@ h2{
   transform: scale(1);
 }
 
+.container3:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/*Used for the fashion page to center middle text
+*/
+.container4{
+  width: 40%; 
+  height: 90px; 
+  margin: auto;
+  position: relative;
+}
 .text {
   color: black;
   font-size: 15px;
@@ -61,4 +77,11 @@ h2{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+@media (max-width: 1900px){
+  .customcontainer{
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
